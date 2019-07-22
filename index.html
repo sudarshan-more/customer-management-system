@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Customer Management system</title>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/co/4.1.0/index.js"></script>
+    <script type="module" src="main1.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style="color: aqua; text-align: center">Customer Management System</h1>
+    <form name="regform" style="text-align: center; border-inline-color:black" novalidate >
+        
+        <div class="block">
+            <label for="firstName">FirstName:</label>
+            <input class="ip" type="text" name="firstName" id="firstName" placeholder="Enter your first name"
+                minlength="8" required maxlength="50" />
+            <p id="firstname_errors"></p>
+        </div>
+        <div class="block">
+            <label for="lastName">LastName:</label>
+            <input class="ip" type="text" name="lastName" id="lastName" placeholder="Enter your last name" minlength="8"
+                maxlength="50">
+            <p id="lastname_errors"></p>
+        </div>
+        <div class="block">
+            <label for="email">Email:</label>
+            <input class="ip" type="email" name="email" id="email" placeholder="Enter your email id" required>
+            <p id="email_errors"></p>
+        </div>
+        <div class="block">
+            <label for="mobile">Mobile:</label>
+            <input class="ip" type="tel" name="mobile" id="mobile" placeholder="Enter your mobile number" required>
+            <p id="mobile_errors"></p>
+        </div>
+        <input class="add" type="submit" value="ADD">
+    </form>
+    <!-- <table id="Customerdatatable" onload="generate_table()">
+    </table> -->
+    <!-- <div id="Customerdatatable" onload="generate_table()"></div> -->
+    <br>
+    <br>
+    <p id="para"></p>
+    <div id="customers">
+            <table align="center" id="customerTable" border="4">
+            <tr><th>id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Mobile</th>
+            <th>Email</th>
+            <th>Action</th>
+            </tr>
+           </table>
+    </div>
+</body>
+</html>

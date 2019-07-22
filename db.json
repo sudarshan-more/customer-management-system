@@ -1,0 +1,32 @@
+{
+  "customers": [
+    {
+      "firstName": "akram",
+      "lastName": "mirzabaig",
+      "email": "akram.boy@yahoo.com",
+      "mobile": "8615629865",
+      "id": 2
+    },
+    {
+      "firstName": "sudarshan",
+      "lastName": "",
+      "email": "sudarshansidmore@gmail.com",
+      "mobile": "8615629865",
+      "id": 3
+    },
+    {
+      "firstName": "akram",
+      "lastName": "boy",
+      "email": "akram.boy@yahoo.com",
+      "mobile": "1231321342",
+      "id": 5
+    },
+    {
+      "firstName": "bala",
+      "lastName": "ragala",
+      "email": "baluragala@gmail.com",
+      "mobile": "8261538132",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+  }
+.ip {
+    width: 200px;
+    
+} 
+.add {
+    width: 80px
+}
+form {
+    align-self: left;
+}
+
+h2 {
+    
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: black;
+}
+
+
+table, th, td 
+{    
+    border: solid 1px #DDD;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+}
+th {
+    font-weight:bold;
+    background-color: aquamarine;
+}
+
+table 
+{    
+    
+    width: 70%;
+    font: 17px Calibri;
+    align-content: center;
+}
+p {
+    align-content: center;
+    color: red;
+}
